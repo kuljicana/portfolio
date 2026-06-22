@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200">
+  <g transform="translate(10,10)">
+    <rect width="140" height="180" rx="12" fill="#fff" stroke="#ddd"/>
+    <rect x="50" y="40" width="40" height="40" rx="8" fill="#E0E0E0"/>
+    <text x="70" y="100" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#999">Flow</text>
+    <text x="70" y="130" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#bbb">Splash</text>
+  </g>
+  <g transform="translate(170,10)">
+    <rect width="140" height="180" rx="12" fill="#fff" stroke="#ddd"/>
+    <rect x="20" y="30" width="100" height="60" rx="6" fill="#E0E0E0"/>
+    <text x="70" y="110" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#999">Welcome</text>
+    <rect x="30" y="130" width="80" height="24" rx="6" fill="#ccc"/>
+  </g>
+  <g transform="translate(330,10)">
+    <rect width="140" height="180" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="70" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#999">Create Account</text>
+    <rect x="20" y="55" width="100" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="20" y="85" width="100" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="20" y="115" width="100" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="30" y="150" width="80" height="24" rx="6" fill="#ccc"/>
+  </g>
+  <g transform="translate(490,10)">
+    <rect width="140" height="180" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="70" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#999">Dashboard</text>
+    <rect x="30" y="70" width="80" height="50" rx="6" fill="#E0E0E0"/>
+    <text x="70" y="140" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#bbb">Empty state</text>
+  </g>
+  <g transform="translate(650,10)">
+    <rect width="140" height="180" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="70" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#999">Add Project</text>
+    <rect x="20" y="55" width="100" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="20" y="85" width="100" height="40" rx="4" fill="#E0E0E0"/>
+    <rect x="30" y="140" width="80" height="24" rx="6" fill="#ccc"/>
+  </g>
+  <g transform="translate(810,10)">
+    <rect width="140" height="180" rx="12" fill="#fff" stroke="#ddd"/>
+    <text x="70" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#999">Create Task</text>
+    <rect x="20" y="55" width="100" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="20" y="85" width="100" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="20" y="115" width="60" height="20" rx="4" fill="#E0E0E0"/>
+    <rect x="30" y="150" width="80" height="24" rx="6" fill="#ccc"/>
+  </g>
+</svg>

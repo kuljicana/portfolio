@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <rect width="400" height="240" fill="#f5f5f5"/>
+  <rect width="400" height="36" fill="#fff"/>
+  <text x="16" y="24" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#333">Waevio  Profile</text>
+  <rect x="16" y="48" width="368" height="50" fill="#2d5a3d" opacity="0.2"/>
+  <circle cx="48" cy="73" r="18" fill="#cbd5e0"/>
+  <text x="76" y="70" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#333">TestUser</text>
+  <text x="76" y="84" font-family="Inter, sans-serif" font-size="7" fill="#666">42 events connected</text>
+  <rect x="16" y="108" width="368" height="12" rx="6" fill="#e0e0e0"/>
+  <rect x="16" y="108" width="240" height="12" rx="6" fill="#6344ff"/>
+  <text x="16" y="136" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#333">Recent Activity</text>
+  <rect x="16" y="144" width="368" height="28" rx="4" fill="#fff"/>
+  <text x="24" y="162" font-family="Inter, sans-serif" font-size="8" fill="#333">Connected: Renaissance ’ Scientific Revolution</text>
+  <rect x="16" y="178" width="368" height="28" rx="4" fill="#fff"/>
+  <text x="24" y="196" font-family="Inter, sans-serif" font-size="8" fill="#333">Added: French Revolution timeline</text>
+  <rect x="16" y="212" width="368" height="28" rx="4" fill="#fff"/>
+  <text x="24" y="230" font-family="Inter, sans-serif" font-size="8" fill="#333">Explored: Ancient Rome causes &amp; effects</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3a6e"/>
+      <stop offset="100%" stop-color="#6b3fa0"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg1)"/>
+  <path d="M0 180 Q80 120 160 200 T300 140" stroke="#f5c842" stroke-width="3" fill="none" opacity="0.9"/>
+  <path d="M0 200 Q100 140 200 220 T300 160" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0 220 Q60 180 140 240 T300 200" stroke="#f5a623" stroke-width="2" fill="none" opacity="0.7"/>
+  <text x="150" y="155" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="4" fill="#fff">DREAMCRAFT</text>
+</svg>

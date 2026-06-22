@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300">
+  <rect width="520" height="300" fill="#1a1a2e"/>
+  <rect width="520" height="40" fill="#0f0f1a"/>
+  <text x="20" y="26" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#fff">Proconnecter</text>
+  <text x="200" y="26" font-family="Inter, sans-serif" font-size="9" fill="#ccc">Jobs</text>
+  <text x="250" y="26" font-family="Inter, sans-serif" font-size="9" fill="#ccc">Companies</text>
+  <text x="420" y="26" font-family="Inter, sans-serif" font-size="9" fill="#ccc">Login</text>
+  <rect y="40" width="520" height="160" fill="#4a5568"/>
+  <rect y="40" width="520" height="160" fill="#2d3748" opacity="0.5"/>
+  <text x="40" y="110" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#fff">Find the Job You Love.</text>
+  <text x="40" y="135" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#fff">Love the Job You Find.</text>
+  <rect x="40" y="155" width="280" height="32" rx="4" fill="#fff"/>
+  <text x="52" y="175" font-family="Inter, sans-serif" font-size="9" fill="#999">Search jobs, companies...</text>
+  <rect x="40" y="220" width="140" height="50" rx="6" fill="#2d3748"/>
+  <text x="60" y="250" font-family="Inter, sans-serif" font-size="8" fill="#fff">Smart Matching</text>
+  <rect x="190" y="220" width="140" height="50" rx="6" fill="#2d3748"/>
+  <text x="210" y="250" font-family="Inter, sans-serif" font-size="8" fill="#fff">Verified Profiles</text>
+  <rect x="340" y="220" width="140" height="50" rx="6" fill="#2d3748"/>
+  <text x="360" y="250" font-family="Inter, sans-serif" font-size="8" fill="#fff">Fast Hiring</text>
+</svg>
