@@ -73,12 +73,13 @@
     <!-- Farmlet — Project 01 -->
     <section id="works" class="section work work--farmlet">
         <div class="container">
-        <div class="work__header">
-            <span class="work__number">01</span>
-            <span class="work__line" aria-hidden="true"></span>
-        </div>
+        
         <div class="work__content work__content--farmlet">
             <div class="work__info work-reveal work-reveal--text">
+                <div class="work__header">
+                    <span class="work__number">01</span>
+                    <span class="work__line" aria-hidden="true"></span>
+                </div>
                 <h2 class="work__title work__title--farmlet">UI/UX and Logo Design for Farmlet</h2>
                 <span class="work__accent" aria-hidden="true"></span>
                 <p class="work__desc">Farmlet is a digital marketplace that brings local producers closer to customers.
@@ -274,7 +275,10 @@
             </div>
 
             <div class="lume__screens work-reveal work-reveal--media">
-                <img src="images/lume-screens.png" alt="Lume mobile app screens">
+                <picture>
+                    <source media="(max-width: 960px)" srcset="images/lume-screens-mobile.png">
+                    <img src="images/lume-screens.png" alt="Lume mobile app screens">
+                </picture>
             </div>
         </div>
 
@@ -379,11 +383,23 @@
         </div>
         <span class="thankyou__accent" aria-hidden="true"></span>
         <div class="thankyou__email">
-            <p class="thankyou__label">EMAIL</p>
+            <p class="thankyou__label">
+                <img src="images/icons/mail.svg" alt="" class="thankyou__label-icon" width="16" height="16" aria-hidden="true">
+                EMAIL
+            </p>
             <a href="mailto:anakuljic@gmail.com">anakuljic@gmail.com</a>
-            <p class="thankyou__label location">LOCATION</p>
+            <p class="thankyou__label linkedin">
+                <img src="images/icons/linkedin.svg" alt="" class="thankyou__label-icon" width="16" height="16" aria-hidden="true">
+                LINKEDIN
+            </p>
+            <a href="https://www.linkedin.com/in/ana-kulji%C4%87-01131bb3" target="_blank" rel="noopener noreferrer">linkedin.com/in/ana-kuljić-01131bb3</a>
+
+            <p class="thankyou__label location">
+                <img src="images/icons/location.svg" alt="" class="thankyou__label-icon" width="16" height="16" aria-hidden="true">
+                LOCATION
+            </p>
             <p class="thankyou__location">Novi Sad, Serbia</p>
-        </div>
+           </div>
         </div>
     </section>
 
