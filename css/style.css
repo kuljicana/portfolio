@@ -946,88 +946,30 @@ body > section:nth-of-type(even) {
     font-size: clamp(1.75rem, 3.5vw, 2.5rem);
 }
 
-.farmlet__showcase {
-    position: relative;
-    min-height: 520px;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
+.farmlet__brand,
+.farmlet__mockups {
+    min-width: 0;
 }
 
-.farmlet__tablet {
-    position: relative;
-    width: 52%;
-    margin: 0 12% 0 2%;
-    z-index: 2;
-    border-radius: 26px;
-  overflow: hidden;
+.farmlet__mockups {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-/* .farmlet__device-frame {
-    background: #1a1a1a;
-    border-radius: 18px;
-    padding: 10px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
-    overflow: hidden;
-} */
-
-.farmlet__device-frame img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.farmlet__brand-card {
-    position: absolute;
-    top: 1rem;
-    right: 0.75rem;
-    width: 40%;
-    z-index: 3;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
-}
-
-.farmlet__brand-card img {
+.farmlet__brand img,
+.farmlet__mockups img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.farmlet__phone-wrap {
-    position: absolute;
-    bottom: -8.5rem;
-    right: 0.75rem;
-    width: 40%;
-    z-index: 4;
-}
-
-.farmlet__phone-bg {
-    position: absolute;
-    top: -6%;
-    left: -10%;
-    right: -6%;
-    bottom: -5%;
-    background: #D9EDE4;
+.farmlet__brand img {
+    width: 85%;
+    margin-inline: auto;
     border-radius: 24px;
-    z-index: 0;
-}
-
-.farmlet__phone {
-    position: relative;
-    z-index: 1;
-    background: #1a1a1a;
-    border-radius: 22px;
-    padding: 8px;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
-}
-
-.farmlet__phone img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 16px;
 }
 
 .work--circular .work__header {
@@ -1535,7 +1477,8 @@ body > section.work--print {
     }
 
     .about__image,
-    .farmlet__showcase,
+    .farmlet__brand,
+    .farmlet__mockups,
     .fuelerate__mockup,
     .flow__gallery,
     .lume__screens,
@@ -1564,62 +1507,16 @@ body > section.work--print {
         margin: 0 auto;
     }
 
-    .farmlet__showcase {
-        display: flex;
-        flex-direction: column;
-        gap: 1.25rem;
-        min-height: auto;
-        max-width: 100%;
+    .farmlet__brand,
+    .farmlet__mockups {
+        grid-column: auto;
         margin: 0 auto;
-        overflow: visible;
     }
 
-    .farmlet__brand-card {
-        order: 1;
-        position: static;
-        width: 100%;
-        top: auto;
-        right: auto;
-        border-radius: 0;
-        box-shadow: none;
+    .farmlet__mockups {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
-
-    .farmlet__tablet {
-        order: 2;
-        position: static;
-        width: 100%;
-        margin: 0;
-        z-index: auto;
-    }
-
-    .farmlet__phone-wrap {
-        order: 3;
-        position: static;
-        width: 100%;
-        bottom: auto;
-        right: auto;
-        z-index: auto;
-    }
-
-    .farmlet__phone {
-        padding: 0;
-        border-radius: 0;
-        box-shadow: none;
-        background: transparent;
-    }
-
-    .farmlet__phone img {
-        border-radius: 0;
-    }
-
-    .farmlet__device-frame img {
-        border-radius: 0;
-    }
-
-    /* .farmlet__brand-card img {
-        width: calc(100% - 30px);
-        margin-inline: auto;
-    } */
 
     .circular__intro {
         grid-template-columns: 1fr;
