@@ -2531,6 +2531,21 @@ a {
   display: block;
 }
 
+/* Buyer flow layout — text left, image right */
+.buyer-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 600px;
+}
+@media (max-width: 768px) {
+  .buyer-layout {
+    grid-template-columns: 1fr;
+  }
+  .buyer-layout > div:last-child {
+    min-height: 400px;
+  }
+}
+
 /* Phone frame — for plain app screenshots (no baked-in chrome) */
 .csp-phone {
   position: relative;
