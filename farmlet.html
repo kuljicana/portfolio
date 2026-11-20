@@ -123,10 +123,10 @@
     <section class="csp-section">
       <div class="csp-wrap">
         <span class="csp-label">User Flows</span>
-        <h2 class="csp-h2">Three Roles, Three Experiences</h2>
+        <h2 class="csp-h2">Two Roles, Two Experiences</h2>
         <span class="csp-accent-line"></span>
         <p class="csp-body csp-body--wide" style="margin-bottom:3rem;">
-          Farmlet serves three distinct user types, each with their own journey and set of actions within the platform.
+          Farmlet serves two distinct user types, each with their own journey and set of actions within the platform.
         </p>
 
         <!-- Flow 1: Buyer -->
@@ -190,19 +190,32 @@
             <div class="csp-flow-step">
               <div class="csp-flow-step__type">Screen</div>
               <div class="csp-flow-step__name">Product Management</div>
-              <div class="csp-flow-step__desc">Add &amp; edit products</div>
+              <div class="csp-flow-step__desc">Entry point</div>
             </div>
             <span class="csp-flow-arrow">→</span>
-            <div class="csp-flow-step" style="border-color:#4C956C;background:#eef7f2;">
-              <div class="csp-flow-step__type" style="color:#2d7a4f;">Action</div>
-              <div class="csp-flow-step__name" style="color:#2d7a4f;">Manage Locations</div>
-              <div class="csp-flow-step__desc">Add seller locations</div>
-            </div>
-            <span class="csp-flow-arrow">→</span>
-            <div class="csp-flow-step" style="border-color:#4C956C;background:#eef7f2;">
-              <div class="csp-flow-step__type" style="color:#2d7a4f;">Action</div>
-              <div class="csp-flow-step__name" style="color:#2d7a4f;">Assign to Locations</div>
-              <div class="csp-flow-step__desc">Link products to locations</div>
+            <div class="csp-flow-branch">
+              <!-- Branch 1: Add Products -->
+              <div style="display:flex; align-items:center; gap:0.5rem;">
+                <div class="csp-flow-step" style="border-color:#4C956C;background:#eef7f2; width:140px; flex-shrink:0;">
+                  <div class="csp-flow-step__type" style="color:#2d7a4f;">Action</div>
+                  <div class="csp-flow-step__name" style="color:#2d7a4f;">Add Products</div>
+                  <div class="csp-flow-step__desc">Create &amp; edit product listings</div>
+                </div>
+              </div>
+              <!-- Branch 2: Add Locations → Assign Products -->
+              <div style="display:flex; align-items:center; gap:0.5rem;">
+                <div class="csp-flow-step" style="border-color:#4C956C;background:#eef7f2; width:140px; flex-shrink:0;">
+                  <div class="csp-flow-step__type" style="color:#2d7a4f;">Action</div>
+                  <div class="csp-flow-step__name" style="color:#2d7a4f;">Add Locations</div>
+                  <div class="csp-flow-step__desc">Define selling locations</div>
+                </div>
+                <span class="csp-flow-arrow">→</span>
+                <div class="csp-flow-step" style="border-color:#4C956C;background:#eef7f2; width:140px; flex-shrink:0;">
+                  <div class="csp-flow-step__type" style="color:#2d7a4f;">Action</div>
+                  <div class="csp-flow-step__name" style="color:#2d7a4f;">Assign Products</div>
+                  <div class="csp-flow-step__desc">Link products to locations</div>
+                </div>
+              </div>
             </div>
             <span class="csp-flow-arrow">→</span>
             <div class="csp-flow-step">
@@ -348,8 +361,8 @@
     ══════════════════════════════════════════ -->
     <section class="csp-section">
       <div class="csp-wrap">
-        <span class="csp-label">Reservation Management</span>
-        <h2 class="csp-h2">A Request-Based Reservation System</h2>
+        <span class="csp-label">Seller Activity</span>
+        <h2 class="csp-h2">Managing Incoming Requests</h2>
         <span class="csp-accent-line"></span>
         <p class="csp-body csp-body--wide" style="margin-bottom:3rem;">
           The reservation process was one of the most challenging parts of the project. Instead of a traditional shopping cart and checkout, Farmlet allows buyers to send reservation requests directly to sellers. I designed the flow to help sellers review incoming requests, check reservation details and accept or reject them, while buyers can follow the status of their requests.

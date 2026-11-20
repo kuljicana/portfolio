@@ -1125,8 +1125,8 @@ body > section:nth-of-type(even) {
 .work--fuelerate .work__content,
 .work--fuelerate .work__content--fuelerate,
 .work--groupfun .work__content--groupfun {
-  grid-template-columns: 0.42fr 0.58fr;
-  align-items: center;
+  grid-template-columns: 0.6fr 0.4fr;
+  align-items: start;
   gap: 3rem 4rem;
 }
 
@@ -1149,11 +1149,19 @@ body > section:nth-of-type(even) {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
 }
 
-.fuelerate__mockup img,
-.groupfun__mockup img {
+.fuelerate__mockup img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.groupfun__mockup img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 700px;
+  border-radius: 8px;
 }
 
 .work__phone-frame {
@@ -1591,7 +1599,7 @@ body > section.work--print {
 
   .fuelerate__mockup,
   .groupfun__mockup {
-    max-width: 100%;
+    max-width: 60%;
     margin: 0 auto;
   }
 
@@ -1741,6 +1749,10 @@ body > section.work--print {
 @media (max-width: 560px) {
   :root {
     --page-gutter: 1.25rem;
+  }
+
+  .groupfun__mockup {
+    max-width: 90%;
   }
 
   .navbar,
